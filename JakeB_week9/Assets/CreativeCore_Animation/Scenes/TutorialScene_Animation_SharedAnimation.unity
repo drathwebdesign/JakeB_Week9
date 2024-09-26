@@ -459,6 +459,8 @@ PlayableDirector:
     value: {fileID: 532677079}
   - key: {fileID: -579545020927954022, guid: aeb391af43b688c4f850edabade5e360, type: 2}
     value: {fileID: 1843590468}
+  - key: {fileID: -2597470286111306805, guid: aeb391af43b688c4f850edabade5e360, type: 2}
+    value: {fileID: 328965090}
   m_ExposedReferences:
     m_References:
     - cee36f86fd99b314891a31888cb7cf04: {fileID: 344409134}
@@ -1549,7 +1551,12 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'LowManRightHand'\n\tTransform 'LowManLeftShoulder'\n\tTransform
+    'LowManHead'\n\tTransform 'LowManRightLeg'\n\tTransform 'LowManHips'\n\tTransform
+    'LowManLeftToeBase'\n\tTransform 'LowManLeftUpLeg'\n\tTransform 'LowManSkeleton'\n\tTransform
+    'LowManLeftFoot'\n\tTransform 'LowManRightShoulder'\n\tand more ..."
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
